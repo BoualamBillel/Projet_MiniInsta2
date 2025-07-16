@@ -14,8 +14,9 @@
     </header>
 
     <main>
-        <h1>Upload Reussi !</h1>
-        <p>Votre image est desormais affiché dans la galerie !</p>
+        <h1>✅ Image envoyée avec succès !</h1>
+        <p>Ta photo a bien été ajoutée à la galerie.</p>
+        <p>Tu peux maintenant revenir à la galerie pour la découvrir avec les autres œuvres.</p>
         <button><a href="galerie.php" target="_blank" rel="noopener noreferrer">Acceder à la Galerie !</a></button>
         <button><a href="index.php" target="_blank" rel="noopener noreferrer">Retour à l'acceuil !</a></button>
 

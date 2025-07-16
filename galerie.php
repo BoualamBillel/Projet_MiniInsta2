@@ -14,6 +14,12 @@
     </header>
 
     <main>
+        <section class="info-galerie">
+            <h1>🎨 La Galerie</h1>
+            <p>Un mur d’inspiration, une toile vivante.</p>
+            <p>Chaque photo ici est un éclat de créativité, une vision partagée.</p>
+            <p>Explore, ressens, et laisse-toi emporter par l’art des autres.</p>
+        </section>
         <section class="affichage">
             <?php
             $photos = scandir("upload/");
