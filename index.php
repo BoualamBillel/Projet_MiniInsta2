@@ -4,63 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini insta - Acceuil</title>
+    <title>Mini Insta - Acceuil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+<header class="flex justify-center">
+<img src="images/logo-miniInsta-removebg-preview.png" alt="">
+</header>
 
 <body>
-    <header>
+    <section class="bg-white lg:grid lg:h-screen lg:place-content-center dark:bg-gray-900">
+        <div
+            class="mx-auto w-screen max-w-screen-xl px-4 py-10 sm:px-6 sm:py-24 md:grid md:grid-cols-2 md:items-center md:gap-4 lg:px-8 ">
+            <div class="max-w-prose text-left">
+                <h1
+                    class="text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white flex flex-col justify-center text-center pb-2">
+                    🎨 Mini Insta : </h1>
+                <h2 class="text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white flex flex-col justify-center text-center"> La galerie vivante des
+                <strong class="text-pink-600"> artistes </strong></h2>
+                <h2 class="text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white flex flex-col justify-center text-center"> d’aujourd’hui
+                </h2>
 
-    </header>
+                <p class="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed dark:text-gray-200 py-4 text-center">
+                    Bienvenue dans un espace où chaque photo devient un geste artistique, une empreinte sensible, une
+                    touche de lumière sur une toile numérique.
 
-    <main>
-        
-        <section class="info">
-            <h1>🎨 Mini Insta — La galerie vivante des artistes d’aujourd’hui</h1>
-            <section class="nav">
-            <button><a href="upload.php" target="_blank" rel="noopener noreferrer">Upload ton image !</a></button>
-            <button><a href="galerie.php" target="_blank" rel="noopener noreferrer">Visite la Galerie !</a></button>
-        </section>
-            <p>Bienvenue dans un espace où chaque photo devient un geste artistique, une empreinte sensible, une touche
-                de lumière sur une toile numérique.</p>
-            <p>Ici, chaque utilisateur est un créateur, et chaque image partagée est une œuvre.
-                Mini Insta n’est pas un simple mur d’images : c’est une galerie collective, un atelier ouvert où l’on
-                expose ce que l’on voit, ce que l’on ressent, ce que l’on veut transmettre.</p>
-            <ul>
-                <li>📷 Exprime ton regard.</li>
-                <li>🖼️ Téléverse tes photos.</li>
-                <li>🖌️ Participe à une fresque vivante, nourrie par la diversité des talents.</li>
-            </ul>
+                    Ici, chaque utilisateur est un créateur, et chaque image partagée est une œuvre.
+                    Mini Insta n’est pas un simple mur d’images : c’est une galerie collective, un atelier ouvert où
+                    l’on expose ce que l’on voit, ce que l’on ressent, ce que l’on veut transmettre.
+                </p>
 
-            <p>Que tu sois photographe, peintre, illustrateur ou amateur de belles compositions…
-                Mini Insta t’invite à transformer chaque instant capturé en œuvre d’art.</p>
-            <p>Prends place parmi les artistes.
-                Expose. Inspire. Crée.</p>
-
-            <h2>🖼️ La Galerie — Une toile en mouvement</h2>
-            <p>Bienvenue dans la Galerie de Mini Insta,
-                un lieu où les regards s’entrelacent et où chaque photo raconte une histoire.</p>
-            <p>Ici, les artistes partagent des instants saisis, des émotions figées, des fragments du monde vus à
-                travers leur sensibilité.</p>
-            <p>Chaque cliché est un coup de pinceau numérique, une étincelle de créativité déposée sur cette toile
-                collective.</p>
-                <ul>
-                    <li>🌟 Explore les univers de nos créateurs.</li>
-                    <li> 📸 Découvre la beauté du quotidien, l’étrangeté de l’instant, la poésie de la lumière.</li>
-                    <li> 🖌️ Laisse-toi inspirer — ou deviens toi-même une source d’inspiration.</li>
+                <ul class="text-pink-600 text-bold flex justify-center items-center flex-col text-center text-lg gap-2">
+                    <li> 📷 Exprime ton regard. </li>
+                    <li> 🖼️ Téléverse tes photos.</li>
+                    <li>🖌️ Participe à une fresque vivante, nourrie par la diversité des talents.</li>
                 </ul>
-                <p>La galerie n’est jamais figée.</p>
-                <p> Elle évolue avec chaque contribution, chaque vision, chaque âme qui ose s’exprimer.</p>
-        </section>
+                <p class="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed dark:text-gray-200 text-center">
+                    Que tu sois
+                    photographe, peintre, illustrateur ou amateur de belles compositions…
+                    Mini Insta t’invite à transformer chaque instant capturé en œuvre d’art.
+
+                    Prends place parmi les artistes.
+                    <div class="text-bold text-gray-200 text-center text-lg p-2">Expose. Inspire. Crée.</div>
+                </p>
 
 
 
+                <div class="mt-4 flex gap-4 sm:mt-6 flex justify-center items-center">
+                    <a target="_blank" class="inline-block rounded border border-white-600 bg-pink-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-pink-500"
+                        href="galerie.php">
+                        Visite la Galerie
+                    </a>
 
-    </main>
+                    <a target="_blank" class="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-white-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white"
+                        href="upload.php">
+                        Upload ta Photo
+                    </a>
+                </div>
+            </div>
 
-    <footer>
+            <img src="images/TableauAcceuil.jpg" alt="" viewBox="0 0 1024 768"
+                class="mx-auto hidden max-w-md text-gray-900 md:block dark:text-white">
+                
+</img>
+        </div>
+    </section>
 
-    </footer>
+
 
 </body>
 
