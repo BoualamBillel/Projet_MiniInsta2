@@ -21,7 +21,7 @@
                 <h1>✅ Image envoyée avec succès !</h1>
                 <p>Ta photo a bien été ajoutée à la galerie.</p>
                 <p>Tu peux maintenant revenir à la galerie pour la découvrir avec les autres œuvres.</p>
-                <a target="_blank"
+                <a 
                     class="inline-block rounded border border-white-600 bg-pink-600 px-5 py-3 mt-5 font-medium text-white shadow-sm transition-colors hover:bg-pink-500"
                     href="galerie.php ">
                     Visite la Galerie
