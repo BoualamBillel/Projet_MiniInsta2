@@ -51,12 +51,12 @@
 
 
                 <div class="mt-4 flex gap-4 sm:mt-6 flex justify-center items-center">
-                    <a target="_blank" class="inline-block rounded border border-white-600 bg-pink-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-pink-500"
+                    <a  class="inline-block rounded border border-white-600 bg-pink-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-pink-500"
                         href="galerie.php">
                         Visite la Galerie
                     </a>
 
-                    <a target="_blank" class="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-white-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white"
+                    <a  class="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-white-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white"
                         href="upload.php">
                         Upload ta Photo
                     </a>

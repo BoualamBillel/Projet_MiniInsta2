@@ -30,18 +30,18 @@
                 <form class="flex items-center flex-col text-center flex-wrap gap-3"
                     action="traitement.php" method="post" enctype="multipart/form-data">
                     <label for="nom">Saisir votre Nom :</label>
-                    <input class="bg-pink-600 border border-gray-300 text-white text-lg text-center dark:bg-white text-pink-600" type="text" name="nom" id="nom">
+                    <input class="bg-pink-600 border border-gray-300 text-white text-lg text-center dark:bg-white dark:text-pink-600" type="text" name="nom" id="nom">
                     <label for="photo">Saisir votre Photo :</label>
                     <input class="hover:bg-pink-600" type="file" name="photo" id="photo">
                     <button   class="border border-gray-300 p-2 hover:bg-pink-500"  type="submit">Envoyer !</button>
                 </form>
-                <a target="_blank"
+                <a 
                     class="inline-block rounded border border-white-600 bg-pink-600 px-5 py-3 mt-5 font-medium text-white shadow-sm transition-colors hover:bg-pink-500"
                     href="galerie.php ">
                     Visite la Galerie
                 </a>
 
-                <a target="_blank"
+                <a 
                     class="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-white-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white"
                     href="index.php">
                     Retourne à l'acceuil
