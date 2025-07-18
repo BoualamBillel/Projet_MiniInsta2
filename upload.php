@@ -16,7 +16,7 @@
     </header>
     <main>
         <section class="bg-white lg:grid  flex justify-center pt-10 px-5 dark:bg-gray-900 h-auto">
-            <div class="text-white text-lg text-center flex flex-col gap-3">
+            <div class="text-lg text-center flex flex-col gap-3 dark:text-white">
                 <h1 class="text-xl font-bold">📤 Ajoute ta touche</h1>
                 <div class="flex gap-2 flex-col">
                     <p>Partage ton regard, dépose ton image.</p>
@@ -26,11 +26,11 @@
             </div>
         </section>
         <section class="bg-white lg:grid lg:h-screen pt-10 px-5 dark:bg-gray-900 h-screen">
-            <div class="text-white text-lg text-center flex flex-col gap-3 items-center">
+            <div class="text-lg text-center flex flex-col gap-3 items-center dark:text-white">
                 <form class="flex items-center flex-col text-center flex-wrap gap-3"
                     action="traitement.php" method="post" enctype="multipart/form-data">
                     <label for="nom">Saisir votre Nom :</label>
-                    <input class="text-pink-600 text-lg text-center" type="text" name="nom" id="nom">
+                    <input class="bg-pink-600 border border-gray-300 text-white text-lg text-center dark:bg-white text-pink-600" type="text" name="nom" id="nom">
                     <label for="photo">Saisir votre Photo :</label>
                     <input class="hover:bg-pink-600" type="file" name="photo" id="photo">
                     <button   class="border border-gray-300 p-2 hover:bg-pink-500"  type="submit">Envoyer !</button>

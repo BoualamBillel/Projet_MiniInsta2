@@ -45,7 +45,7 @@
                     Mini Insta t’invite à transformer chaque instant capturé en œuvre d’art.
 
                     Prends place parmi les artistes.
-                    <div class="text-bold text-gray-200 text-center text-lg p-2">Expose. Inspire. Crée.</div>
+                    <div class="text-bold text-gray-900 text-center text-lg p-2">Expose. Inspire. Crée.</div>
                 </p>
 
 
