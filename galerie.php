@@ -16,7 +16,7 @@
     </header>
 
     <main>
-        <section class="bg-white lg:grid  flex justify-center pt-10 px-5 dark:bg-gray-900 h-auto items-center">
+        <section class="bg-white lg:grid  flex justify-center pt-10 px-5 dark:bg-gray-900 h-auto items-center flex-col">
             
                 <a target="_blank"
                     class="inline-block rounded border border-white-600 bg-pink-600 px-5 py-3 mt-5 font-medium text-white shadow-sm transition-colors hover:bg-pink-500 flex justify-center items-center"
