@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
     const modal = document.getElementById("modal");
     const modalImg = modal.querySelector("img");
     const images = document.querySelectorAll(".affichage img");
+    const closeBtn = document.getElementById("close-modal");
 
     images.forEach(img => {
         img.addEventListener("click", () => {
@@ -10,6 +11,12 @@ document.addEventListener("DOMContentLoaded", ()=> {
             modalImg.alt = img.alt;
         });
     });
+
+    closeBtn.addEventListener("click", () => {
+    modal.classList.remove("active");
+    modalImg.src = "";
+    modalImg.alt = "";
+  });
 
     modal.addEventListener("click", e => {
         if (e.target === modal) {

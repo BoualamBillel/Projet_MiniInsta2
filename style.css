@@ -46,6 +46,7 @@ section {
   opacity: 0.9;
 }
 
+
 .affichage {
   display: grid;
   grid-template-columns: 1fr;
@@ -98,6 +99,20 @@ section {
   border-radius: 8px;
 }
 
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+  transition: color 0.3s ease;
+}
+
+.close:hover {
+  color: #ff5555;
+}
 
 @media (min-width: 640px) {
   .affichage {
