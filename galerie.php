@@ -7,6 +7,7 @@
     <title>Mini Insta - Galerie</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="modal-galerie.js"></script>
 
 </head>
 
@@ -76,6 +77,10 @@
         </section>
     </main>
 
+
+    <div id="modal" class="modal">
+  <img src="" alt="Image agrandie" />
+</div>
 
 </body>
 
